@@ -35,12 +35,10 @@ public class Calculator {
         int min = minus(20);
         System.out.println(min);
 
-        Calculator div = new Calculator();
-        int x = div.divide(15);
+        int x = calculator.divide(15);
         System.out.println(x);
 
-        Calculator sum = new Calculator();
-        int z = sum.sumAllOperation(25);
+        int z = calculator.sumAllOperation(25);
         System.out.println(z);
     }
 }
