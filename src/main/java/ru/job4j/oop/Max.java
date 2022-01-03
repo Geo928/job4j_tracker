@@ -5,8 +5,8 @@ public class Max {
         return first > second ? first : second;
     }
 
-    public static int max(int first, int second, int third) {
-        return max(first, max(second, third));
+    public static int max(int one, int two, int three) {
+        return max(one, max(two, three));
     }
 
     public static int max(int first, int second, int third, int fourth) {

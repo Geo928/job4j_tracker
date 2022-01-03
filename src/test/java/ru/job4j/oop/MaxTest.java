@@ -8,7 +8,6 @@ public class MaxTest {
     @Test
     public void whenMax10() {
         int expected = 10;
-
         int result = Max.max(1, 10);
         Assert.assertEquals(expected, result);
     }
