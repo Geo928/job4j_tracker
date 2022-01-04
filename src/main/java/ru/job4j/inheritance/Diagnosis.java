@@ -4,6 +4,7 @@ public class Diagnosis {
     public String diagnosis;
 
     public String getDiagnosis() {
+
         return  diagnosis;
     }
 }
