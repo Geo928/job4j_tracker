@@ -17,7 +17,7 @@ public class Matches {
                 System.out.println("На столе осталось " + (count - matches) + " спичек");
                 count -= matches;
             } else {
-                System.out.println("Нарушение правил");
+                System.out.println("Ошибка! Введите число от 1 до 3:");
                 int number = Integer.parseInt(input.nextLine());
                 if (number >= 1 && number <= 3 && number <= count) {
                     System.out.println("На столе осталось " + (count - number) + " спичек");
