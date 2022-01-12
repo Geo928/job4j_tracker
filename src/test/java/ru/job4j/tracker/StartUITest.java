@@ -19,7 +19,6 @@ public class StartUITest {
         assertThat(created.getName(), is(expected.getName()));
     }
 
-
     @Test
     public void whenEditItem() {
         Tracker tracker = new Tracker();
@@ -45,6 +44,6 @@ public class StartUITest {
         };
         StartUI.deleteItem(new StubInput(answers), tracker);
         Item deleted = tracker.findById(item.getId());
-        assertEquals(null, deleted);
+        assertNull(deleted);
     }
 }
