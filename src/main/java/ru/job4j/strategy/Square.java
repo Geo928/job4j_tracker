@@ -4,7 +4,7 @@ public class Square implements Shape {
     @Override
     public String draw() {
         String ln = System.lineSeparator();
-        return "__________" + ln
+        return  "__________" + ln
                 + "|        |" + ln
                 + "|        |" + ln
                 + "|________|" + ln;
