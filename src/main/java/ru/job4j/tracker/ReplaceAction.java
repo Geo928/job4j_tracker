@@ -4,7 +4,7 @@ public class ReplaceAction implements UserAction {
     private final Output out;
 
     public ReplaceAction(Output out) {
-        this.out = out;
+         this.out = out;
     }
 
     @Override

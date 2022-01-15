@@ -4,7 +4,7 @@ public class StartUI {
     private final Output out;
 
     public StartUI(Output out) {
-        this.out = out;
+         this.out = out;
     }
 
     public void init(Input input, Tracker tracker, UserAction[] actions) {

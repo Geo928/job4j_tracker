@@ -4,7 +4,7 @@ public class FindByIdAction implements UserAction {
     private final Output out;
 
     public FindByIdAction(Output out) {
-        this.out = out;
+         this.out = out;
     }
 
     @Override

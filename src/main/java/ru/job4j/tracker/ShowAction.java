@@ -4,7 +4,7 @@ public class ShowAction implements UserAction {
     private final Output out;
 
     public ShowAction(Output out) {
-        this.out = out;
+         this.out = out;
     }
 
     @Override
