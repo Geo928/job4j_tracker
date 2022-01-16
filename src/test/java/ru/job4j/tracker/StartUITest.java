@@ -18,8 +18,8 @@ public class StartUITest {
                 new String[] {"0", String.valueOf(one.getId()), replaceName, "1"}
         );
         UserAction[] actions = new UserAction[]{
-                new ReplaceAction(out),
-                new Exit(out)
+                 new ReplaceAction(out),
+                 new Exit(out)
         };
         new StartUI(out).init(in, tracker, actions);
         String ln = System.lineSeparator();
