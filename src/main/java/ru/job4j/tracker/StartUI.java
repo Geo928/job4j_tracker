@@ -19,7 +19,7 @@ public class StartUI {
                 out.println("Wrong input, you can select: 0 .. " + (actions.size() - 1));
                 continue;
             }
-            UserAction action = actions.get(select);
+             UserAction action = actions.get(select);
             run = action.execute(input, tracker);
         }
     }
