@@ -7,7 +7,7 @@ public class Citizen {
     private String username;
 
     public Citizen(String passport, String username) {
-        this.passport = passport;
+         this.passport = passport;
         this.username = username;
     }
 
