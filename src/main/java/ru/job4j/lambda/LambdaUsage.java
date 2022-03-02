@@ -9,12 +9,21 @@ public class LambdaUsage {
     public static void main(String[] args) {
         List<String> strings = Arrays.asList("eeeee", "a",  "ccc", "dddd", "bb");
         Comparator<String> comparator = (left, right) -> {
-            System.out.println("compare - " + right + " : " + left);
+            System.out.println("compare - " + left + " : " + right);
             return Integer.compare(right.length(), left.length());
         };
         strings.sort(comparator);
         for (String str : strings) {
             System.out.println(str);
         }
+
+        String[] names = {
+                "Ivan"
+        };
+        Comparator<String> lengthCmp = (left, right) -> {
+            System.out.println("execute comparator");
+            return Integer.compare(left.length(), right.length());
+        };
+        Arrays.sort(names, lengthCmp);
     }
 }
