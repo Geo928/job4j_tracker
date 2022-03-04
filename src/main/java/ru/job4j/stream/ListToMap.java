@@ -10,7 +10,7 @@ public class ListToMap {
         return list.stream()
                 .collect(Collectors.toMap(
                         Student::getSurname,
-                        Student -> Student,
+                        student -> student,
                         (existing, replacement) -> existing
                 ));
     }
